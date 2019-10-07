@@ -6,19 +6,406 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
+    <title>Fou_De_Pizza</title>
     <link rel="stylesheet" type="text/css"  href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js.js"></script>
-
-
-
-    <title>Fou_De_Pizza</title>
+    
 </head>
 
+<img src="images/pizza2.jpg" style="width:100%"><br>
 
-<body>
-    
+          <body>
+              <br>
+              <div class="row">
+              <div class="images">
+              <div class="column">
+                <img src="images/pizza4.jfif" alt="pizza" style="width:100%" >
+                
+                      
+                  <div id="myDIV">
+                              
+                     </div>
+              
+                   </div>
+              
+                      <div class="column">
+                        <img src="images/pizza5.jfif" alt="pizza" style="width:100%" >
+                        
+                      </div>
+                      
+                      <div class="column">
+                        <img src="images/tenor.gif" alt="pizza" style="width:100%" >
+                        
+                      
+                    </div>
+                    </div>
+                    </div>
+              
+                  </br>
+
+                  
+              
+              
+              <button class="open-button" onclick="openForm()">ORder NOW</button>
+              
+              <div class="form-popup" id="myForm">
+                <form  class="form-container">
+                  <h1>PLACE YOUR ORDER</h1>
+              
+                  <div class="main">
+                    <button onclick="getTotal()">Get Total Cost</button>
+                    <div class="row">
+                      <div class="column">
+                        <div class="size">
+                          <select id="size">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust">
+                          <select id="crust">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings">
+                          <select id="toppings">
+                            
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt" value="0">
+                        </div>
+                    </div>
+                          <div class="column">
+                        <div class="size1">
+                          <select id="size1">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust1">
+                          <select id="crust1">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings1">
+                          <select id="toppings1">
+                            
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt1" value="0">
+                        </div>
+                    </div>
+                          <div class="column">
+                        <div class="size">
+                          <select id="size2">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust">
+                          <select id="crust2">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings2">
+                          <select id="toppings2">
+                            
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt2" value="0">
+                        </div>
+                    </div>
+                          <div class="column">
+                        <div class="size">
+                          <select id="size3">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust">
+                          <select id="crust3">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings3">
+                          <select id="toppings3">
+                            <option value="0" class="null"></option>
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt3" value="0">
+                        </div>
+                    </div>
+                          <div class="column">
+                        <div class="size">
+                          <select id="size4">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust">
+                          <select id="crust4">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings4">
+                          <select id="toppings4">
+                            
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt4" value="0">
+                        </div>
+                    </div>
+                          <div class="column">
+                        <div class="size">
+                          <select id="size5">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust">
+                          <select id="crust5">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings">
+                          <select id="toppings5">
+                            
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt5" value="0">
+                        </div>
+                    </div>
+                          <div class="column">
+                        <div class="size">
+                          <select id="size6">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust">
+                          <select id="crust6">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings">
+                          <select id="toppings6">
+                            
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt6" value="0">
+                        </div>
+                    </div>
+                          <div class="column">
+                        <div class="size">
+                          <select id="size7">
+                            
+                            <option value="1000" class="small">Small</option>
+                            <option value="1200" class="medium">Medium</option>
+                            <option value="1400" class="large">Large</option>
+                            
+                          </select>
+                        </div>
+                        <div class="crust">
+                          <select id="crust7">
+                            
+                            <option value="500" class="crispy">Crispy</option>
+                            <option value="600" class="stuffed">Stuffed</option>
+                            <option value="700" class="glutenfree">Gluten-Free</option>
+                
+                          </select>
+                        </div>
+                        <div class="toppings">
+                          <select id="toppings7">
+                            
+                            <option value="300" class="pepperoni">Pepperoni</option>
+                            <option value="400" class="mushrooms">Mushrooms</option>
+                            <option value="500" class="onions">Onions</option>
+                            <option value="600" class="sausage">Sausage</option>
+                            <option value="700" class="bacon">Bacon</option>
+                            <option value="800" class="extracheese">Extra Cheese</option>
+                            <option value="900" class="blackolives">Black Oilives</option>
+                            <option value="1000" class="greenpepper">Green Pepper</option>
+                            <option value="1100" class="pineapple">Pineapple</option>
+                            <option value="1200" class="spinach">Spinach</option>
+                            
+                          </select>
+                        </div>
+                        <div class="amount">
+                          <input type="text" placeholder="Enter Amount 1, 2, 3 etc" id="amt7" value="0">
+                        </div>
+                    </div>		
+                  </div>
+
+
+                  <button onclick="getTotal()">Get Total Cost</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+<br>
+</div>
+</form>
+</div>
+            </br>          
+
+          <center>  Give Us Feedback </center>
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Kenya</option>
+                  <option value="canada">Uganda</option>
+                  <option value="usa">Tanzania</option>
+                  <option value="usa">Rwanda</option>
+                  <option value="usa">Burundi</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+            </body>
 </body>
 
 

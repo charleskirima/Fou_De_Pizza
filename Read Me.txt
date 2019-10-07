@@ -1,0 +1,17 @@
+# FOU_DE_PIZZA
+#### A web application that allows users to order their pizza @ FOU_DE_PIZZA
+#### By **CHARLES KINYUA KIRIMA**
+## Description
+This app basucally allows users to order pixxas attheir home comfort 
+## Setup/Installation Requirements
+* This application requires no installation and will run on any browser on any environment (Windows, Mac and (or) Linux, etc)
+## Behaviour Driven Development
+{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+## Technologies Used
+The application was designed using HTML, CSS and Jquery.
+## Support and contact details
+There are no known bugs, if any are encountered, please feel free to contact me on kirimak09@gmail.com
+The live site is at https://github.com/charleskirima/Fou_De_Pizza
+### License
+{Determine the license under which this application can be used.  See below for more details on licensing.}
+Copyright (c) {year} **{List of contributors or company name}**

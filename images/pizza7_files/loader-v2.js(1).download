@@ -1,0 +1,101 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_701707_d7e42146-062d-42a9-8ee6-b0407894b927 {\n  -webkit-font-smoothing:antialiased !important; \n  cursor:pointer !important; \n  -moz-user-select:none !important; \n  -webkit-user-select:none !important; \n  -o-user-select:none !important; \n  user-select:none !important; \n  display:inline-block !important; \n  font-weight:bold !important; \n  text-align:center !important; \n  text-decoration:none !important; \n  font-family:sans-serif !important; \n  border-radius:6px !important; \n  background-color:rgb(191,46,23) !important; \n  background-image:-webkit-linear-gradient(top, rgb(191,46,23), rgb(143,34,17)) !important; \n  background-image :-moz-linear-gradient(top, rgb(191,46,23), rgb(143,34,17)) !important; \n  box-shadow:inset 0px 1px rgb(238,57,28) !important; \n  -webkit-box-shadow:inset 0px 1px rgb(238,57,28) !important; \n  -moz-box-shadow:inset 0px 1px rgb(238,57,28) !important; \n  color:rgb(255, 255, 255) !important; \n  border:2px solid rgb(95,23,11) !important; \n  text-shadow:0px -1px rgb(57,13,6) !important; \n  line-height:1.5em !important; \n  padding:6px 18px !important; \n}\na#cta_button_701707_d7e42146-062d-42a9-8ee6-b0407894b927:hover {\nbackground-color:rgb(210,50,25) !important; \nbackground-image:-webkit-linear-gradient(top, rgb(210,50,25), rgb(143,34,17)) !important; \nbackground-image :-moz-linear-gradient(top, rgb(210,50,25), rgb(143,34,17)) !important; \nbox-shadow:inset 0px 1px rgb(255,62,31), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \n-webkit-box-shadow:inset 0px 1px rgb(255,62,31), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \n-moz-box-shadow:inset 0px 1px rgb(255,62,31), 0px 1px 8px rgba(0, 0, 0, 0.3) !important; \ncolor:rgb(255,255,255) !important; \nborder:2px solid rgb(114,27,13) !important; \n}\na#cta_button_701707_d7e42146-062d-42a9-8ee6-b0407894b927:active, #cta_button_701707_d7e42146-062d-42a9-8ee6-b0407894b927:active:hover {\nbackground-color:rgb(143,34,17) !important; \nbackground-image:-webkit-linear-gradient(top, rgb(143,34,17), rgb(191,46,23)) !important; \nbackground-image :-moz-linear-gradient(top, rgb(143,34,17), rgb(191,46,23)) !important; \nbox-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \n-webkit-box-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \n-moz-box-shadow:inset 0px 1px 10px rgba(0, 0, 0, 0.5) !important; \ncolor:rgb(244,244,244) !important; \n}\n\n","image_html":"<a id=\"cta_button_701707_d7e42146-062d-42a9-8ee6-b0407894b927\" class=\"cta_button\" href=\"https://www.akcrust.com/cs/c/?cta_guid=d7e42146-062d-42a9-8ee6-b0407894b927&placement_guid=27272998-75ea-4785-bfca-b5181c3c126f&portal_id=701707&canon=https%3A%2F%2Fwww.akcrust.com%2Fblog%2F8-different-pizza-crust-varieties-which-is-best-for-you&redirect_url=APefjpFMKiUPUzUYj4bizSM3bMgoFUC-8Oj6uRV8L9HwqWlSMnCtKv395dTPs2kPBHWDuMnAkGTAS5Ha7CI1yiIyHC1YfqdSj7Wh8zOjqLyP7B7gAjhittW94iCNeeZXnxCIPp0aDvf65n4b2EPOWAZ9LeEYc5VFJg&click=587a18e6-fc29-48cd-b167-a6e697017fab&hsutk=c7a000001fcb175c1abc016d9ffcf939&signature=AAH58kFZYe-oxxY94OZmnhypyqP45dVffg&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=3430990289\"  target=\"_blank\"  cta_dest_link=\"https://www.akcrust.com/pizza-crust-types-ebook-lp\"><img id=\"hs-cta-img-27272998-75ea-4785-bfca-b5181c3c126f\" class=\"hs-cta-img \" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"Pizza Crust Types Comparison Guide\" src=\"/hs-fs/hub/701707/hub_generated/resized/3a35e758-1ef9-4b08-bd5f-7b95ef81f374.png\" /></a>","is_image":true,"placement_element_class":"hs-cta-27272998-75ea-4785-bfca-b5181c3c126f","raw_html":"<a id=\"cta_button_701707_d7e42146-062d-42a9-8ee6-b0407894b927\" class=\"cta_button \" href=\"https://www.akcrust.com/cs/c/?cta_guid=d7e42146-062d-42a9-8ee6-b0407894b927&placement_guid=27272998-75ea-4785-bfca-b5181c3c126f&portal_id=701707&canon=https%3A%2F%2Fwww.akcrust.com%2Fblog%2F8-different-pizza-crust-varieties-which-is-best-for-you&redirect_url=APefjpFMKiUPUzUYj4bizSM3bMgoFUC-8Oj6uRV8L9HwqWlSMnCtKv395dTPs2kPBHWDuMnAkGTAS5Ha7CI1yiIyHC1YfqdSj7Wh8zOjqLyP7B7gAjhittW94iCNeeZXnxCIPp0aDvf65n4b2EPOWAZ9LeEYc5VFJg&click=587a18e6-fc29-48cd-b167-a6e697017fab&hsutk=c7a000001fcb175c1abc016d9ffcf939&signature=AAH58kFZYe-oxxY94OZmnhypyqP45dVffg&utm_referrer=https%3A%2F%2Fwww.google.com%2F&pageId=3430990289\" target=\"_blank\" style=\"/*hs-extra-styles*/\" cta_dest_link=\"https://www.akcrust.com/pizza-crust-types-ebook-lp\" title=\"Pizza Crust Types Comparison Guide\"><span style=\"color: #ffffff; font-size: 24px; font-family: sans-serif; line-height: 1.5em;\">New Call-to-action</span></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+
+            html = __hs_cta_json.raw_html;
+
+        }
+         
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('27272998-75ea-4785-bfca-b5181c3c126f');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+    
+    window._hsq = window._hsq || [];
+    window._hsq.push(['trackCtaView', '27272998-75ea-4785-bfca-b5181c3c126f', 'd7e42146-062d-42a9-8ee6-b0407894b927']);
+    
+
+}());
