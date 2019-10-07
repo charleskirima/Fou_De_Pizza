@@ -14,8 +14,6 @@
     display: table;
   }
 
-
-
   
   .centered {
     position: absolute;
@@ -62,7 +60,7 @@
     width: 280px;
   }
   
-  /* The popup form - hidden by default */
+
   .form-popup {
     display: none;
     position: fixed;
@@ -72,7 +70,7 @@
     z-index: 9;
   }
   
-  /* Add styles to the form container */
+ 
   .form-container {
     max-width: 300px;
     padding: 10px;
@@ -133,3 +131,8 @@ input[type=submit]:hover {
   padding: 20px;
 }
   
+
+
+.containe:hover {
+  opacity: 1;
+}
