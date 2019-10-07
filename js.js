@@ -77,7 +77,7 @@ function myFunction() {
     var amtmea = parseInt(document.getElementById("amt7").value);
     var totallocation = ((sizemea + crustmea + topmea) * amtmea);
     
-    var total = exTotal + amTotal + pchickenTotal + totalchitika + totalcreamy + hawaiiTotal + totalmar + totalmea +totallocation ;
+    var total = exTotal + amTotal + pchickenTotal + totalchitika + totalcreamy + hawaiiTotal + totalmar + totalmea;
     
     alert(total);
     }
