@@ -11,9 +11,6 @@ function myFunction() {
     document.getElementById("myForm").style.display = "block";
   }
   
-  function refresh() {
-    document.getElementById("myForm").style.display = "";
-  }
 
   function closeForm() {
     document.getElementById("myForm").style.display = "none";
@@ -77,8 +74,10 @@ function myFunction() {
     var totalmea = ((sizemea + crustmea + topmea) * amtmea);
     
     
+    var amtmea = parseInt(document.getElementById("amt7").value);
+    var totallocation = ((sizemea + crustmea + topmea) * amtmea);
     
-    var total = exTotal + amTotal + pchickenTotal + totalchitika + totalcreamy + hawaiiTotal + totalmar + totalmea;
+    var total = exTotal + amTotal + pchickenTotal + totalchitika + totalcreamy + hawaiiTotal + totalmar + totalmea +totallocation ;
     
     alert(total);
     }
