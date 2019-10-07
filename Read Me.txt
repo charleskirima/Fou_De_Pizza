@@ -14,5 +14,4 @@ There are no known bugs, if any are encountered, please feel free to contact me 
 The live site is at https://github.com/charleskirima/Fou_De_Pizza
 ### License
 *N/A
-{Determine the license under which this application can be used.  See below for more details on licensing.}
 Copyright (c) {year} **{List of contributors or company name}**
